@@ -19,7 +19,7 @@ $colors: (
 );
 
 @each $key, $value in $colors {
-  .item--#{$key} {
+  .item-#{$key} {
     background-color: $value;
   }
 }
